@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170171955091",
+    "project_id": "photogallery-fd9d0",
+    "storage_bucket": "photogallery-fd9d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170171955091:android:601378d0e49d407b055a66",
+        "android_client_info": {
+          "package_name": "com.example.photogallery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJzCRPY4pUzeA7Vz9RFRNYzKRRlxO6Xu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
