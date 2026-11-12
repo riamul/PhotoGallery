@@ -112,7 +112,7 @@ class RegisterActivity : AppCompatActivity() {
                                         startActivity(
                                             Intent(
                                                 this@RegisterActivity,
-                                                FeedActivity::class.java
+                                                LoginActivity::class.java
                                             )
                                         )
 
@@ -149,7 +149,7 @@ class RegisterActivity : AppCompatActivity() {
     // Navigate to LoginActivity
     fun loginUser(view: View) {
         startActivity(
-            Intent(this, LoginActivity::class.java)
-        )
+                Intent(this, LoginActivity::class.java)
+                )
     }
 }
