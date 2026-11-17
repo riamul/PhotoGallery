@@ -25,7 +25,7 @@
             />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/Photo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             app:srcCompat="@android:drawable/ic_menu_camera"
@@ -40,10 +40,11 @@
             android:background="@color/cardview_dark_background"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:onClick="selectPhoto"/>
 
         <EditText
-            android:id="@+id/editTextTextMultiLine"
+            android:id="@+id/caption"
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:ems="10"
@@ -57,7 +58,7 @@
             />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/count"
             android:layout_gravity="right"
             android:layout_marginBottom="20dp"
             android:layout_width="wrap_content"
@@ -73,6 +74,7 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"
+            android:onClick="createPost"
             />
 
     </LinearLayout>
