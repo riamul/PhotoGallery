@@ -24,7 +24,7 @@
                 android:layout_marginRight="20dp">
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/profile"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:text="R"
@@ -41,7 +41,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/user"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Rahim_K"
@@ -51,7 +51,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="10/10/2026"
@@ -60,13 +60,13 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/photo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             app:srcCompat="@android:drawable/ic_menu_gallery" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/caption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Caption"
